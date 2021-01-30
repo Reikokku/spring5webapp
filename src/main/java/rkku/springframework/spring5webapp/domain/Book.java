@@ -1,7 +1,5 @@
 package rkku.springframework.spring5webapp.domain;
 
-import rkku.springframework.spring5webapp.repositories.PublisherRepository;
-
 import javax.persistence.*;
 import java.util.HashSet;
 import java.util.Set;
@@ -80,7 +78,6 @@ public class Book {
                 "id=" + id +
                 ", title='" + title + '\'' +
                 ", isbn='" + isbn + '\'' +
-                ", authors=" + authors +
                 '}';
     }
 
